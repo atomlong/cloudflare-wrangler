@@ -4,6 +4,11 @@ pkgbase = cloudflare-wrangler
 	pkgrel = 1
 	url = https://github.com/cloudflare/wrangler
 	arch = x86_64
+	arch = i686
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	arch = aarch64
 	license = Apache
 	license = MIT
 	makedepends = cargo
@@ -11,3 +16,4 @@ pkgbase = cloudflare-wrangler
 	md5sums = c25e8c6de795deb2c4954595b2908dad
 
 pkgname = cloudflare-wrangler
+
