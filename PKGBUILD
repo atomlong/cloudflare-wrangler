@@ -9,7 +9,7 @@ pkgdesc='Command-line tool for working with Cloudflare Workers'
 arch=('x86_64' 'i686' 'arm' 'armv6h' 'armv7h' 'aarch64')
 url="https://github.com/cloudflare/wrangler"
 license=('Apache' 'MIT')
-makedepends=('cargo')
+makedepends=('rustup')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/cloudflare/wrangler/archive/v$pkgver.tar.gz")
 md5sums=('c25e8c6de795deb2c4954595b2908dad')
 
